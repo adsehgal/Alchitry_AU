@@ -32,8 +32,8 @@ U 1 1 5E994FF9
 P 3950 4900
 AR Path="/5E994FF9" Ref="U?"  Part="1" 
 AR Path="/5E9800DF/5E994FF9" Ref="U1"  Part="1" 
-F 0 "U1" H 3950 8070 50  0000 C CNN
-F 1 "TFP410" H 3950 7979 50  0000 C CNN
+F 0 "U1" H 4000 8150 50  0000 C CNN
+F 1 "TFP410" H 4075 8075 50  0000 C CNN
 F 2 "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias" H 3950 4900 50  0001 L BNN
 F 3 "" H 3950 4900 50  0001 L BNN
 F 4 "74K3960" H 3950 4900 50  0001 L BNN "Field4"
@@ -246,14 +246,14 @@ $EndComp
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5E99506F
-P 5275 5750
+P 4200 6125
 AR Path="/5E99506F" Ref="#PWR?"  Part="1" 
 AR Path="/5E9800DF/5E99506F" Ref="#PWR038"  Part="1" 
-F 0 "#PWR038" H 5275 5500 50  0001 C CNN
-F 1 "GNDREF" H 5275 5600 50  0001 C CNN
-F 2 "" H 5275 5750 50  0001 C CNN
-F 3 "" H 5275 5750 50  0001 C CNN
-	1    5275 5750
+F 0 "#PWR038" H 4200 5875 50  0001 C CNN
+F 1 "GNDREF" H 4200 5975 50  0001 C CNN
+F 2 "" H 4200 6125 50  0001 C CNN
+F 3 "" H 4200 6125 50  0001 C CNN
+	1    4200 6125
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -273,26 +273,18 @@ Wire Wire Line
 $Comp
 L Device:R_Small_US R?
 U 1 1 5E99507E
-P 5225 5550
+P 4200 6025
 AR Path="/5E99507E" Ref="R?"  Part="1" 
 AR Path="/5E9800DF/5E99507E" Ref="R4"  Part="1" 
-F 0 "R4" V 5375 5475 50  0000 L CNN
-F 1 "91K" V 5300 5450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5225 5550 50  0001 C CNN
-F 3 "~" H 5225 5550 50  0001 C CNN
-	1    5225 5550
+F 0 "R4" V 4350 5950 50  0000 L CNN
+F 1 "91K" V 4275 5925 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4200 6025 50  0001 C CNN
+F 3 "~" H 4200 6025 50  0001 C CNN
+	1    4200 6025
 	-1   0    0    -1  
 $EndComp
-Connection ~ 5225 5450
 Wire Wire Line
 	5325 5300 5325 5650
-Wire Wire Line
-	5325 5650 5275 5650
-Wire Wire Line
-	5275 5650 5275 5750
-Connection ~ 5275 5650
-Wire Wire Line
-	5275 5650 5225 5650
 Wire Wire Line
 	5750 3450 5825 3450
 Wire Wire Line
@@ -352,15 +344,6 @@ Wire Wire Line
 Connection ~ 5825 4250
 Wire Wire Line
 	5750 3025 5825 3025
-Wire Wire Line
-	5825 3025 5825 2925
-Wire Wire Line
-	5825 2825 5750 2825
-Wire Wire Line
-	5750 2925 5825 2925
-Connection ~ 5825 2925
-Wire Wire Line
-	5825 2925 5825 2825
 $Comp
 L Device:C_Small C?
 U 1 1 5E9950B0
@@ -374,9 +357,6 @@ F 3 "~" H 5975 2825 50  0001 C CNN
 	1    5975 2825
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5825 2725 5975 2725
-Connection ~ 5975 2725
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5E9950B8
@@ -390,8 +370,6 @@ F 3 "" H 6725 2375 50  0001 C CNN
 	1    6725 2375
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5975 2725 6175 2725
 Wire Wire Line
 	5975 2925 6175 2925
 $Comp
@@ -407,9 +385,6 @@ F 3 "~" H 6175 2825 50  0001 C CNN
 	1    6175 2825
 	1    0    0    -1  
 $EndComp
-Connection ~ 6175 2725
-Wire Wire Line
-	6175 2725 6375 2725
 Connection ~ 6175 2925
 Wire Wire Line
 	6175 2925 6375 2925
@@ -426,23 +401,7 @@ F 3 "~" H 6375 2825 50  0001 C CNN
 	1    6375 2825
 	1    0    0    -1  
 $EndComp
-Connection ~ 6375 2725
 Connection ~ 6375 2925
-$Comp
-L Device:C_Small C?
-U 1 1 5E9950D2
-P 6575 2825
-AR Path="/5E9950D2" Ref="C?"  Part="1" 
-AR Path="/5E9800DF/5E9950D2" Ref="C3"  Part="1" 
-F 0 "C3" H 6575 2875 40  0000 L CNN
-F 1 "10µF" H 6575 2750 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6575 2825 50  0001 C CNN
-F 3 "~" H 6575 2825 50  0001 C CNN
-	1    6575 2825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6375 2725 6575 2725
 Wire Wire Line
 	6375 2925 6575 2925
 $Comp
@@ -459,8 +418,6 @@ F 3 "~" H 5975 3075 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5975 2975 6175 2975
-Wire Wire Line
 	5975 3175 6175 3175
 $Comp
 L Device:C_Small C?
@@ -475,44 +432,7 @@ F 3 "~" H 6175 3075 50  0001 C CNN
 	1    6175 3075
 	1    0    0    -1  
 $EndComp
-Connection ~ 6175 2975
 Connection ~ 6175 3175
-$Comp
-L Device:C_Small C?
-U 1 1 5E9950EA
-P 6375 3075
-AR Path="/5E9950EA" Ref="C?"  Part="1" 
-AR Path="/5E9800DF/5E9950EA" Ref="C6"  Part="1" 
-F 0 "C6" H 6375 3125 40  0000 L CNN
-F 1 "10µF" H 6375 3000 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6375 3075 50  0001 C CNN
-F 3 "~" H 6375 3075 50  0001 C CNN
-	1    6375 3075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6175 2975 6375 2975
-Wire Wire Line
-	6175 3175 6375 3175
-Wire Wire Line
-	5750 3225 5825 3225
-Wire Wire Line
-	5825 3225 5825 3125
-Wire Wire Line
-	5825 3125 5750 3125
-$Comp
-L Device:L_Small L?
-U 1 1 5E9950F5
-P 6575 2625
-AR Path="/5E9950F5" Ref="L?"  Part="1" 
-AR Path="/5E9800DF/5E9950F5" Ref="L0"  Part="1" 
-F 0 "L0" H 6475 2725 50  0000 L CNN
-F 1 "600" V 6525 2550 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6575 2625 50  0001 C CNN
-F 3 "~" H 6575 2625 50  0001 C CNN
-	1    6575 2625
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5E9950FB
@@ -526,101 +446,14 @@ F 3 "~" H 5975 3325 50  0001 C CNN
 	1    5975 3325
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C?
-U 1 1 5E995101
-P 6175 3325
-AR Path="/5E995101" Ref="C?"  Part="1" 
-AR Path="/5E9800DF/5E995101" Ref="C8"  Part="1" 
-F 0 "C8" H 6175 3375 40  0000 L CNN
-F 1 "10µF" H 6175 3250 40  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6175 3325 50  0001 C CNN
-F 3 "~" H 6175 3325 50  0001 C CNN
-	1    6175 3325
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5975 3225 6175 3225
-Wire Wire Line
-	5975 3425 6175 3425
-Wire Wire Line
-	5825 2725 5825 2825
-Connection ~ 5825 2825
-Wire Wire Line
-	5825 3125 5875 3125
-Wire Wire Line
-	5875 3125 5875 2975
-Wire Wire Line
-	5875 2975 5975 2975
-Connection ~ 5825 3125
-Connection ~ 5975 2975
-Wire Wire Line
-	5750 3325 5875 3325
-Wire Wire Line
-	5875 3325 5875 3225
-Wire Wire Line
-	5875 3225 5975 3225
-Connection ~ 5975 3225
-Connection ~ 6575 2725
-$Comp
-L Device:L_Small L?
-U 1 1 5E995115
-P 6725 2625
-AR Path="/5E995115" Ref="L?"  Part="1" 
-AR Path="/5E9800DF/5E995115" Ref="L1"  Part="1" 
-F 0 "L1" H 6625 2725 50  0000 L CNN
-F 1 "600" V 6675 2550 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6725 2625 50  0001 C CNN
-F 3 "~" H 6725 2625 50  0001 C CNN
-	1    6725 2625
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:L_Small L?
-U 1 1 5E99511B
-P 6875 2625
-AR Path="/5E99511B" Ref="L?"  Part="1" 
-AR Path="/5E9800DF/5E99511B" Ref="L2"  Part="1" 
-F 0 "L2" H 6775 2725 50  0000 L CNN
-F 1 "600" V 6825 2550 50  0000 L CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6875 2625 50  0001 C CNN
-F 3 "~" H 6875 2625 50  0001 C CNN
-	1    6875 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6375 2975 6725 2975
-Wire Wire Line
-	6725 2975 6725 2725
-Connection ~ 6375 2975
-Wire Wire Line
-	6175 3225 6875 3225
-Wire Wire Line
-	6875 3225 6875 2725
-Connection ~ 6175 3225
-Wire Wire Line
-	6725 2375 6575 2375
-Wire Wire Line
-	6575 2375 6575 2525
 Wire Wire Line
 	6725 2375 6875 2375
-Wire Wire Line
-	6875 2375 6875 2525
 Connection ~ 6725 2375
 Wire Wire Line
-	6725 2525 6725 2375
-Wire Wire Line
 	6575 2925 6575 3175
-Connection ~ 6575 2925
-Wire Wire Line
-	6375 3175 6575 3175
-Connection ~ 6375 3175
 Connection ~ 6575 3175
 Wire Wire Line
 	6575 3175 6575 3425
-Wire Wire Line
-	6175 3425 6575 3425
-Connection ~ 6175 3425
 $Comp
 L power:GNDREF #PWR?
 U 1 1 5E995135
@@ -718,7 +551,7 @@ AR Path="/5E995175" Ref="JP?"  Part="1"
 AR Path="/5E9800DF/5E995175" Ref="JP0"  Part="1" 
 F 0 "JP0" H 7825 1963 50  0000 C CNN
 F 1 "V_Sel" H 7825 1964 50  0001 C CNN
-F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 7825 1850 50  0001 C CNN
+F 2 "Custom_Parts:jumper_1_2_bridged" H 7825 1850 50  0001 C CNN
 F 3 "~" H 7825 1850 50  0001 C CNN
 	1    7825 1850
 	1    0    0    -1  
@@ -1029,6 +862,120 @@ Text Label 6075 4725 1    50   ~ 0
 DK2
 Text Label 6450 4725 1    50   ~ 0
 DK3
+Wire Wire Line
+	6875 2375 7025 2375
+Connection ~ 6875 2375
+Wire Wire Line
+	6075 2650 5975 2650
+Wire Wire Line
+	5975 2650 5975 2675
+Wire Wire Line
+	6075 2375 6275 2375
+Wire Wire Line
+	6275 2650 6175 2650
+Wire Wire Line
+	6175 2650 6175 2700
+Connection ~ 6275 2375
+Wire Wire Line
+	6275 2375 6475 2375
+Wire Wire Line
+	6375 2650 6375 2725
+Wire Wire Line
+	6575 2650 6575 2725
+Connection ~ 6475 2375
+Wire Wire Line
+	6475 2375 6725 2375
+Wire Wire Line
+	5975 2975 5975 2950
+Wire Wire Line
+	5975 2950 6725 2950
+Wire Wire Line
+	5750 2825 5775 2825
+Wire Wire Line
+	5775 2825 5775 2675
+Wire Wire Line
+	5775 2675 5975 2675
+Connection ~ 5975 2675
+Wire Wire Line
+	5975 2675 5975 2725
+Wire Wire Line
+	5750 2925 5800 2925
+Wire Wire Line
+	5800 2925 5800 2700
+Wire Wire Line
+	5800 2700 6175 2700
+Connection ~ 6175 2700
+Wire Wire Line
+	6175 2700 6175 2725
+Wire Wire Line
+	5825 2725 5825 3025
+Connection ~ 6375 2725
+Wire Wire Line
+	5825 2725 6375 2725
+Wire Wire Line
+	5750 3125 5850 3125
+Wire Wire Line
+	5850 3125 5850 2950
+Wire Wire Line
+	5850 2950 5975 2950
+Connection ~ 5975 2950
+Connection ~ 6175 2975
+Wire Wire Line
+	5750 3225 5875 3225
+Wire Wire Line
+	5875 3225 5875 2975
+Wire Wire Line
+	5900 3325 5900 3225
+Wire Wire Line
+	5900 3225 5975 3225
+Wire Wire Line
+	5750 3325 5900 3325
+Connection ~ 5975 3225
+Wire Wire Line
+	5875 2975 6175 2975
+Wire Wire Line
+	6175 2975 6875 2975
+Wire Wire Line
+	6175 3175 6575 3175
+Wire Wire Line
+	5975 3225 7025 3225
+Wire Wire Line
+	5975 3425 6575 3425
+Wire Wire Line
+	6375 2650 6475 2650
+Wire Wire Line
+	6075 2375 6075 2650
+Wire Wire Line
+	6275 2375 6275 2650
+Wire Wire Line
+	6475 2375 6475 2650
+Connection ~ 6475 2650
+Wire Wire Line
+	6475 2650 6575 2650
+Wire Wire Line
+	6725 2375 6725 2950
+Wire Wire Line
+	6875 2375 6875 2975
+Wire Wire Line
+	7025 2375 7025 3225
+$Comp
+L power:GNDREF #PWR?
+U 1 1 5EAF021D
+P 5325 5650
+AR Path="/5EAF021D" Ref="#PWR?"  Part="1" 
+AR Path="/5E9800DF/5EAF021D" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 5325 5400 50  0001 C CNN
+F 1 "GNDREF" H 5325 5500 50  0001 C CNN
+F 2 "" H 5325 5650 50  0001 C CNN
+F 3 "" H 5325 5650 50  0001 C CNN
+	1    5325 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5925 4200 5350
+Wire Wire Line
+	4200 5350 4225 5350
+Connection ~ 4225 5350
 Wire Bus Line
 	3500 2075 3500 2375
 Wire Bus Line

@@ -1,4 +1,4 @@
-update=5/27/2020 2:33:03 AM
+update=5/12/2020 1:08:43 PM
 version=1
 last_client=kicad
 [general]
@@ -12,8 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[ModEditFrame]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -23,13 +21,12 @@ LastIDFExportPath=
 LastVRMLExportPath=
 LastSpecctraDSNExportPath=
 LastGenCADExportPath=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
 MinClearance=0
 MinTrackWidth=0.127
-MinViaAnnulus=0.05
 MinViaDiameter=0.3
 MinThroughDrill=0.3
 MinMicroViaDiameter=0.2
@@ -58,7 +55,6 @@ Hole_too_close_to_track=error
 Drilled_holes_too_close_together=error
 Track_width_too_small=error
 Via_size_too_small=error
-Via_annulus_too_small=error
 Via_drill_too_small=error
 Pad_drill_too_small=error
 Via_hole_larger_than_diameter=error
@@ -69,7 +65,6 @@ Micro_via_drill_too_small=error
 Buried_via_not_allowed=error
 NetClass_Track_Width_too_small=error
 NetClass_Clearance_too_small=error
-NetClass_via_annulus_too_small=error
 NetClass_Via_Dia_too_small=error
 NetClass_Via_Drill_too_small=error
 NetClass_uVia_Dia_too_small=error
@@ -87,9 +82,10 @@ Missing_footprint=warning
 Duplicate_footprints=warning
 Extra_footprint=warning
 Unresolved_text_variable=error
-CopperEdgeClearance=0.01
+CopperEdgeClearance=0.02
 TrackWidth1=0.127
-TrackWidth2=0.381
+TrackWidth2=0.127
+TrackWidth3=0.381
 ViaDiameter1=0.6
 ViaDrill1=0.3
 dPairWidth1=0.1524
@@ -126,7 +122,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -134,11 +130,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -317,4 +313,6 @@ dPairWidth=0.1524
 dPairGap=0.1524
 dPairViaGap=0.25
 [sheetnames]
-1=904b6c20-8361-4b7a-9ef0-444f5a8dce0c:
+1=630c9722-3f27-456e-bde6-918e42632a92:
+2=00000000-0000-0000-0000-00005e9800df:HDMI
+3=00000000-0000-0000-0000-00005ea70bda:LEDs

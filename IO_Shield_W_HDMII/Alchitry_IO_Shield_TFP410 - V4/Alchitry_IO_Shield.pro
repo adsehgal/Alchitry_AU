@@ -1,4 +1,4 @@
-update=5/27/2020 2:33:03 AM
+update=5/15/2020 6:06:24 PM
 version=1
 last_client=kicad
 [general]
@@ -14,6 +14,32 @@ LibDir=
 [eeschema/libraries]
 [ModEditFrame]
 version=1
+[sheetnames]
+1=07fcea32-c187-47eb-a51b-aa47ef0d0c11:
+2=00000000-0000-0000-0000-00005e9800df:HDMI
+3=00000000-0000-0000-0000-00005ea70bda:LEDs
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+NetFmtName=
+SpiceAjustPassiveValues=0
+SubpartIdSeparator=0
+SubpartFirstId=65
+LabSize=50
+TextOffsetRatio=0.3
+LineThickness=6
+BusThickness=12
+WireThickness=6
+PinSymbolSize=25
+JunctionSize=40
+FieldNameTemplates=(templatefields)
+ERC_TestSimilarLabels=1
+ERC_CheckUniqueGlobalLabels=1
+ERC_CheckBusDriverConflicts=1
+ERC_CheckBusEntryConflicts=1
+ERC_CheckBusToBusConflicts=1
+ERC_CheckBusToNetConflicts=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -21,9 +47,9 @@ LastNetListRead=
 LastSTEPExportPath=
 LastIDFExportPath=
 LastVRMLExportPath=
-LastSpecctraDSNExportPath=
+LastSpecctraDSNExportPath=../../../../Desktop/Alchitry_IO_Shield.dsn
 LastGenCADExportPath=
-CopperLayerCount=2
+CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
 AllowBlindVias=0
@@ -87,9 +113,10 @@ Missing_footprint=warning
 Duplicate_footprints=warning
 Extra_footprint=warning
 Unresolved_text_variable=error
-CopperEdgeClearance=0.01
+CopperEdgeClearance=0.02
 TrackWidth1=0.127
-TrackWidth2=0.381
+TrackWidth2=0.127
+TrackWidth3=0.381
 ViaDiameter1=0.6
 ViaDrill1=0.3
 dPairWidth1=0.1524
@@ -126,7 +153,7 @@ DimensionPrecision=1
 SolderMaskClearance=0.051
 SolderMaskMinWidth=0.25
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0
@@ -134,11 +161,11 @@ Enabled=1
 [pcbnew/Layer.In1.Cu]
 Name=In1.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In2.Cu]
 Name=In2.Cu
 Type=0
-Enabled=0
+Enabled=1
 [pcbnew/Layer.In3.Cu]
 Name=In3.Cu
 Type=0
@@ -316,5 +343,3 @@ uViaDrill=0.1
 dPairWidth=0.1524
 dPairGap=0.1524
 dPairViaGap=0.25
-[sheetnames]
-1=904b6c20-8361-4b7a-9ef0-444f5a8dce0c:

@@ -1,6 +1,6 @@
 (kicad_sch (version 20200512) (host eeschema "(5.99.0-1662-g9db296991)")
 
-  (page 1 3)
+  (page 2 3)
 
   (paper "A4")
 
@@ -785,12 +785,12 @@
   (junction (at 201.295 108.585))
   (junction (at 203.835 108.585))
 
+  (no_connect (at 188.595 88.9))
   (no_connect (at 188.595 93.98))
   (no_connect (at 188.595 86.36))
-  (no_connect (at 188.595 88.9))
   (no_connect (at 188.595 81.28))
-  (no_connect (at 188.595 96.52))
   (no_connect (at 139.065 129.54))
+  (no_connect (at 188.595 96.52))
 
   (bus_entry (at 88.9 52.705) (size 2.54 2.54))
   (bus_entry (at 88.9 55.245) (size 2.54 2.54))
@@ -939,8 +939,8 @@
   (wire (pts (xy 203.835 108.585) (xy 206.375 108.585)))
   (wire (pts (xy 206.375 108.585) (xy 206.375 106.68)))
   (bus (pts (xy 88.9 52.705) (xy 87.63 52.705)))
-  (bus (pts (xy 88.9 52.705) (xy 88.9 55.245)))
-  (bus (pts (xy 88.9 55.245) (xy 88.9 60.325)))
+  (bus (pts (xy 88.9 52.705) (xy 88.9 57.785)))
+  (bus (pts (xy 88.9 57.785) (xy 88.9 60.325)))
   (bus (pts (xy 88.9 73.025) (xy 87.63 73.025)))
   (bus (pts (xy 88.9 73.025) (xy 88.9 78.105)))
   (bus (pts (xy 88.9 78.105) (xy 88.9 80.645)))

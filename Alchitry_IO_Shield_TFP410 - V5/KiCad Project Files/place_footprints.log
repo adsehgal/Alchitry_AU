@@ -1,14 +1,14 @@
-07-26 18:28:29 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
-07-26 18:28:29 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
-07-26 18:28:29 place_footprints.action_place_footprints 416:KiCad build version: (5.99.0-2326-ge7e1d5140)
-07-26 18:28:29 place_footprints.action_place_footprints 417:Place footprints plugin version: 48 started
-07-26 18:28:30 place_footprints.place_footprints 210:getting project hierarchy from schematics
-07-26 18:28:30 place_footprints.place_footprints 219:getting a list of all footprints on board
-07-26 18:28:30 place_footprints.action_place_footprints 463:Reference designator is: D
-07-26 18:28:30 place_footprints.action_place_footprints 464:Rerefence number is: 0
-07-26 18:28:30 place_footprints.action_place_footprints 495:Sorted and filtered list:
-[u'D0', u'D1', u'D2', u'D3', u'D4', u'D5', u'D6', u'D7', u'D8', u'D9', u'D10', u'D11', u'D12', u'D13', u'D14', u'D15', u'D16', u'D17', u'D18', u'D19', u'D20', u'D21', u'D22', u'D23']
-07-26 18:28:41 place_footprints.action_place_footprints 526:Modules to place:
-[u'D0', u'D1', u'D2', u'D3', u'D4', u'D5', u'D6', u'D7', u'D8', u'D9', u'D10', u'D11', u'D12', u'D13', u'D14', u'D15', u'D16', u'D17', u'D18', u'D19', u'D20', u'D21', u'D22', u'D23']
-07-26 18:28:41 place_footprints.place_footprints 397:Starting placing with matrix layout
-07-26 18:28:41 place_footprints.action_place_footprints 593:Placing complete
+07-29 22:16:32 place_footprints.action_place_footprints 414:Plugin executed on: 'win32'
+07-29 22:16:32 place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+07-29 22:16:32 place_footprints.action_place_footprints 416:KiCad build version: (5.99.0-2416-g010316457)
+07-29 22:16:32 place_footprints.action_place_footprints 417:Place footprints plugin version: 48 started
+07-29 22:16:33 place_footprints.place_footprints 210:getting project hierarchy from schematics
+07-29 22:16:33 place_footprints.place_footprints 219:getting a list of all footprints on board
+07-29 22:16:33 place_footprints.action_place_footprints 463:Reference designator is: Q
+07-29 22:16:33 place_footprints.action_place_footprints 464:Rerefence number is: 1
+07-29 22:16:33 place_footprints.action_place_footprints 495:Sorted and filtered list:
+[u'Q1', u'Q2', u'Q3', u'Q4']
+07-29 22:16:39 place_footprints.action_place_footprints 526:Modules to place:
+[u'Q1', u'Q2', u'Q3', u'Q4']
+07-29 22:16:39 place_footprints.place_footprints 371:Starting placing with linear layout
+07-29 22:16:39 place_footprints.action_place_footprints 564:Placing complete

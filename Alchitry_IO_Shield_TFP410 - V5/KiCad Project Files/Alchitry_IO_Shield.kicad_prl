@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -14,7 +14,7 @@
       "pads": false,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -54,7 +54,7 @@
       34,
       35
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "4ffff_ffffffff"
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_prl",

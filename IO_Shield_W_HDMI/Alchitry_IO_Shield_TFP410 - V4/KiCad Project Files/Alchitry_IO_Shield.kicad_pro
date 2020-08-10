@@ -99,17 +99,17 @@
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": 0.0
+        "solder_paste_margin_ratio": -0.0
       },
       "track_widths": [
-        0.25,
+        0.127,
         0.127,
         0.381
       ],
       "via_dimensions": [
         {
-          "diameter": 0.8,
-          "drill": 0.4
+          "diameter": 0.4,
+          "drill": 0.3
         }
       ],
       "zones_use_no_outline": false
@@ -302,16 +302,19 @@
   "net_settings": {
     "classes": [
       {
-        "clearance": 0.2,
+        "bus_width": 6.0,
+        "clearance": 0.127,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "track_width": 0.25,
-        "via_diameter": 0.8,
-        "via_drill": 0.4
+        "track_width": 0.127,
+        "via_diameter": 0.4,
+        "via_drill": 0.3,
+        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -355,7 +358,7 @@
   },
   "sheets": [
     [
-      "8aa62a5b-219c-4712-8aec-c439627c56e2",
+      "119deabf-dc77-41b7-bb46-3f1cc53b12a5",
       ""
     ],
     [

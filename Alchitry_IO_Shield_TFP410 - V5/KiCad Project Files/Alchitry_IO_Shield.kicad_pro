@@ -37,7 +37,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -71,6 +71,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "error",
         "pth_inside_courtyard": "ignore",
+        "shorting_items": "error",
         "track_dangling": "warning",
         "track_width": "error",
         "tracks_crossing": "error",
@@ -108,11 +109,11 @@
       ],
       "via_dimensions": [
         {
-          "diameter": 0.0,
-          "drill": 0.4
+          "diameter": 0.45,
+          "drill": 0.3
         },
         {
-          "diameter": 0.5,
+          "diameter": 0.45,
           "drill": 0.3
         }
       ],
@@ -297,7 +298,11 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Custom_LEDs",
+      "Custom_Regulators",
+      "Custom_Symbols"
+    ]
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_pro",
@@ -316,8 +321,8 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "track_width": 0.127,
-        "via_diameter": 0.0,
-        "via_drill": 0.4,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6.0
       }
     ],
@@ -330,7 +335,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "Netlist.net",
       "specctra_dsn": "../../../../Desktop/Alchitry_IO_Shield.dsn",
       "step": "",
       "vmrl": ""
@@ -353,16 +358,17 @@
     "meta": {
       "version": 0
     },
-    "net_format_name": "",
+    "net_format_name": "Pcbnew",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_adjust_passive_values": false,
+    "spice_external_command": "spice \"%I\"",
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
   "sheets": [
     [
-      "f6f8c745-4089-4372-85d0-7d03151e8642",
+      "0e88ff6a-8c61-411a-880b-abcc4461674c",
       ""
     ],
     [

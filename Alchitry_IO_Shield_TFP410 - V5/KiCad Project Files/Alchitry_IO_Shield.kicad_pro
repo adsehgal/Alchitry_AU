@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.0,
+          "height": 0.8,
+          "width": 0.9
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -368,7 +368,7 @@
   },
   "sheets": [
     [
-      "0e88ff6a-8c61-411a-880b-abcc4461674c",
+      "b6abde5a-3166-45a5-8664-fc9e2741956b",
       ""
     ],
     [
@@ -378,6 +378,14 @@
     [
       "00000000-0000-0000-0000-00005ea70bda",
       "LEDs"
+    ],
+    [
+      "b21988d9-a512-4749-a473-bd277d154d4d",
+      "Left_IO"
+    ],
+    [
+      "bb7f07b1-fd99-4adc-bb0d-5292618ed0c1",
+      "Right_IO"
     ]
   ],
   "text_variables": {}

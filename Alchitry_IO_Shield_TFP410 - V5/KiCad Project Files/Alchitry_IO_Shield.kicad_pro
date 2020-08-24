@@ -317,7 +317,7 @@
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
+        "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Default",
         "track_width": 0.127,
@@ -368,12 +368,8 @@
   },
   "sheets": [
     [
-      "b6abde5a-3166-45a5-8664-fc9e2741956b",
+      "1988e010-b429-4489-82b5-1b7adf9fb0e9",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005e9800df",
-      "HDMI"
     ],
     [
       "00000000-0000-0000-0000-00005ea70bda",
@@ -386,6 +382,10 @@
     [
       "bb7f07b1-fd99-4adc-bb0d-5292618ed0c1",
       "Right_IO"
+    ],
+    [
+      "00000000-0000-0000-0000-00005e9800df",
+      "HDMI"
     ]
   ],
   "text_variables": {}

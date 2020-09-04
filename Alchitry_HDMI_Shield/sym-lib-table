@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name Alchitry_HDMI_Shield-rescue)(type Legacy)(uri ${KIPRJMOD}/Alchitry_HDMI_Shield-rescue.lib)(options "")(descr ""))
-)

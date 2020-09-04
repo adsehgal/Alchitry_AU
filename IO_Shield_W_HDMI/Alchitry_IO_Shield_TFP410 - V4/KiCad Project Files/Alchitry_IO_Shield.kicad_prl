@@ -5,14 +5,14 @@
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "selection_filter": {
-      "dimensions": true,
-      "footprints": true,
-      "graphics": true,
-      "keepouts": true,
-      "lockedItems": true,
-      "otherItems": true,
-      "pads": true,
-      "text": true,
+      "dimensions": false,
+      "footprints": false,
+      "graphics": false,
+      "keepouts": false,
+      "lockedItems": false,
+      "otherItems": false,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -54,7 +54,7 @@
       34,
       35
     ],
-    "visible_layers": "7ffff_ffffffff"
+    "visible_layers": "4ffff_ffffffff"
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_prl",

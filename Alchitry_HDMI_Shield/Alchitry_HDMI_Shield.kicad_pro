@@ -25,9 +25,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 8.0,
-          "width": 8.0
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -42,14 +42,12 @@
       },
       "diff_pair_dimensions": [
         {
-          "gap": 0.25,
+          "gap": 0.1524,
           "via_gap": 0.25,
-          "width": 0.2
+          "width": 0.1524
         }
       ],
-      "drc_exclusions": [
-        "courtyards_overlap|60050000|33900000|00000000-0000-0000-0000-00005ea51152|00000000-0000-0000-0000-00005eab4b39"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 0
       },
@@ -91,7 +89,7 @@
         "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.0,
-        "min_copper_edge_clearance": 0.02,
+        "min_copper_edge_clearance": 0.01,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
@@ -102,18 +100,13 @@
         "solder_mask_clearance": 0.051,
         "solder_mask_min_width": 0.25,
         "solder_paste_clearance": 0.0,
-        "solder_paste_margin_ratio": -0.0
+        "solder_paste_margin_ratio": 0.0
       },
       "track_widths": [
-        0.127,
         0.127,
         0.381
       ],
       "via_dimensions": [
-        {
-          "diameter": 0.4,
-          "drill": 0.3
-        },
         {
           "diameter": 0.6,
           "drill": 0.3
@@ -303,23 +296,41 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Alchitry_IO_Shield.kicad_pro",
+    "filename": "Alchitry_HDMI_Shield.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
-        "bus_width": 6.0,
+        "bus_width": 12.0,
         "clearance": 0.127,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.1524,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.1524,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
         "track_width": 0.127,
-        "via_diameter": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.127,
+        "diff_pair_gap": 0.1524,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.1524,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "pwr",
+        "nets": [
+          "GNDREF"
+        ],
+        "track_width": 0.381,
+        "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6.0
       }
@@ -334,7 +345,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "../../../../Desktop/Alchitry_IO_Shield.dsn",
+      "specctra_dsn": "",
       "step": "",
       "vmrl": ""
     },
@@ -366,16 +377,8 @@
   },
   "sheets": [
     [
-      "18b62f7e-ab7f-47a1-8c63-1765135b959d",
+      "904b6c20-8361-4b7a-9ef0-444f5a8dce0c",
       ""
-    ],
-    [
-      "00000000-0000-0000-0000-00005e9800df",
-      "HDMI"
-    ],
-    [
-      "00000000-0000-0000-0000-00005ea70bda",
-      "LEDs"
     ]
   ],
   "text_variables": {}

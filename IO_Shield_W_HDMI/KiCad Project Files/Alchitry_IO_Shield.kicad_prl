@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -17,13 +17,13 @@
       "footprints": false,
       "graphics": false,
       "keepouts": false,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
-      "tracks": true,
-      "vias": true,
-      "zones": true
+      "text": true,
+      "tracks": false,
+      "vias": false,
+      "zones": false
     },
     "visible_items": [
       0,
@@ -60,7 +60,7 @@
       36,
       37
     ],
-    "visible_layers": "00000_80000001"
+    "visible_layers": "2000c_00000000"
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_prl",

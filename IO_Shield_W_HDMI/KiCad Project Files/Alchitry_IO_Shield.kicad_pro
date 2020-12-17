@@ -349,7 +349,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "../../../../Desktop/Alchitry_IO_Shield.dsn",
-      "step": "",
+      "step": "Alchitry_IO_Shield.step",
       "vmrl": ""
     },
     "page_layout_descr_file": ""

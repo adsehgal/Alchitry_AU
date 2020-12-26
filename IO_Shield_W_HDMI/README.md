@@ -13,5 +13,6 @@
 - [ ] Breakout headers for UART, I2C and SPI?
 - [ ] Potentially add push buttons
 - [ ] Increase series resistance for LED matrix
+- [ ] Use diffused LEDs
 
 <br>

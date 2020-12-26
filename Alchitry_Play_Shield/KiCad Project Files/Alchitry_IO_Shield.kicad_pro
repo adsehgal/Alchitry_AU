@@ -137,6 +137,7 @@
     "equivalence_files": []
   },
   "erc": {
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -286,6 +287,7 @@
       ]
     ],
     "rule_severities": {
+      "": "error",
       "bus_definition_conflict": "error",
       "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
@@ -296,6 +298,7 @@
       "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
+      "lib_symbol_issues": "warning",
       "multiple_net_names": "error",
       "net_not_bus_member": "error",
       "no_connect_connected": "error",
@@ -303,6 +306,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
       "similar_labels": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
@@ -352,7 +356,8 @@
       "netlist": "Netlist.net",
       "specctra_dsn": "../../../../Desktop/Alchitry_IO_Shield.dsn",
       "step": "",
-      "vmrl": ""
+      "vmrl": "",
+      "vrml": ""
     },
     "page_layout_descr_file": ""
   },
@@ -364,6 +369,11 @@
       "default_text_size": 50.0,
       "default_wire_thickness": 6.0,
       "field_names": [],
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
       "pin_symbol_size": 25.0,
       "text_offset_ratio": 0.3
     },

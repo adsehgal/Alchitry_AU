@@ -58,9 +58,10 @@
       31,
       32,
       36,
-      37
+      37,
+      38
     ],
-    "visible_layers": "2000c_00000000"
+    "visible_layers": "002000c_80000007"
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_prl",

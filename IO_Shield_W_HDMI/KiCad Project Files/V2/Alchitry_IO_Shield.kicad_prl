@@ -20,7 +20,7 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": false
@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -59,7 +60,7 @@
       37,
       38
     ],
-    "visible_layers": "0001000_ffffffff"
+    "visible_layers": "0001030_ffffffff"
   },
   "meta": {
     "filename": "Alchitry_IO_Shield.kicad_prl",
